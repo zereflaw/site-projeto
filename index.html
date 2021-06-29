@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechPoint</title>
     <!-- ICONS -->
-    <link rel="stylesheet" href="assets/fonts/style.css" />
-
+    <link rel="stylesheet" href="assets/fonts/styles.css" />
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
     <!-- FONTS -->
@@ -39,6 +43,7 @@
     </header>
 
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -58,6 +63,8 @@
         </div>
       </section>
       <div class="divider-1"></div>
+
+      <!-- ABOUT -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -94,50 +101,155 @@
 
       <div class="divider-2"></div>
 
+      <!-- SERVICES -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
             <h2 class="title">Serviços</h2>
-            <p>
-              Com mais de 10 anos no mercado, o
-              <strong>tech<span>point</span>.</strong> já conquistou..
+            <p class='subtitle'>
+              Com mais de 10 anos no mercado, a
+              <strong>tech<span>point</span>.</strong> já conquistou a confiança do mundo empresarial.
             </p>
           </header>
           <div class="cards grid">
             <div class="card">
-              <i class="icon-woman-hair"></i>
-              <h3 class="title">Terapia Capilar</h3>
+              <i class="icon-shield"></i>
+              <h3 class="title">Segurança</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                illum esse ab ut doloribus fuga, cum amet facilis, dolorum nulla
-                vitae iure possimus quisquam aut natus doloremque quod
-                perspiciatis dolor.
+                Contamos com uma equipe preparada para lhe fornecer segurança digital e manter seu negócio protegido a todo momento.
               </p>
             </div>
             <div class="card">
-              <i class="icon-trim"></i>
-              <h3 class="title">Cortes</h3>
+              <i class="icon-globe"></i>
+              <h3 class="title">Conectividade</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-                ducimus necessitatibus recusandae. Culpa aperiam repellendus
-                sint totam accusantium impedit illum recusandae voluptatem id
-                enim, quo suscipit placeat nulla minus nam.
+                Estabelecemos conexão de alta capacidade sem interrupção. Temos a missão de manter sua conexão sem interrupções.
               </p>
             </div>
             <div class="card">
-              <i class="icon-cosmetic"></i>
-              <h3 class="title">Tratamentos</h3>
+              <i class="icon-archive"></i>
+              <h3 class="title">Armazenamento</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci vero porro, temporibus laboriosam ipsa libero nemo sit
-                est tenetur fugiat esse, facere quaerat similique. Quo, in. Id
-                odit eius tenetur?
+                Somos capacitados com uma rede de servidores de alta performance, localizados em Zona Central. Nossa base de dados é vasta e capaz de receber suas informações.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de nossos clientes</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span> &ldquo; </span>
+                    Plataforma super flexível que atende às necessidades do cliente. Todas as demandas solicitadas foram atendidas prontamente.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/17.jpg"
+                      alt="Milena"
+                    />
+                    Milena Pires
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span> &ldquo; </span>
+                    Me senti constantemente protegida. O atendimento com certeza foi um diferencial para mim. Suporte técnico excelente, sempre pronto a atender.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/60.jpg"
+                      alt="Wanessa"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span> &ldquo; </span>
+                    Foi impressionante a velocidade em que tudo começou a funcionar, estou extremamente satisfeita com a Techpoint!
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/78.jpg"
+                      alt="Flavia"
+                    />
+                    Flavia Augusto
+                  </cite>
+                </blockquote>
+              </div>
+
+           
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente =)</h2>
+            <p>Opa, qualquer coisa é só chamar!</p>
+            <a href="https://api.whatsapp.com/send?phone=+5521999959999&text=Opa, bom dia =)" class="button" target='_blank'
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> (21) 99999-9999</li>
+              <li><i class="icon-map-pin"></i> Rua dos Araújos, 32</li>
+              <li><i class="icon-mail"></i> contato@techpoint.com</i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+     <div class="divider-1"></div>
     </main>
+
+ <!-- FOOTER -->
+    <footer class='section'>
+      <div class="container grid">
+          <div class="brand">
+            <a class='logo logo-alt' href='#home'>tech<span>point</span>.</a>
+              <p>©2021 techpoint.</p>
+              <p>Todos os direitos reservados.</p>
+          </div>
+            <div class="social grid">
+                <a href="https://instagram.com" target="_blank"><i class="icon-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="icon-facebook"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="icon-youtube"></i></a>
+              </div>
+          </div>
+    </footer>
+
+    <a href="#home" class='back-to-top'><i class='icon-chevron-up'></i></a>
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- MAIN.JS -->
     <script src="main.js"></script>
   </body>
 </html>
+
+
